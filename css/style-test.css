@@ -7,94 +7,138 @@ html body {
   flex-direction: row;
   justify-content: space-between;
   flex-flow: row wrap;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 /* ============= HEADER STYLES =========== */
+
 .search-header {
   width: 100%;
   height: 56px;
   background: orange;
   order: 1;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #AAA;
 }
 
 /* ============= VIDEO PLAYER STYLES =========== */
 
 .video-player {
   width: 75%;
-  height: 800px;
+  height: auto;
   background: chartreuse;
   order: 2;
 }
 
 .about-video {
-  width: 85%;
+  width: 100%;
+  height: 64px;
   float: left;
+
   /* padding-bottom: 20px;
   padding-top: 70px;
   padding-left: 24px; */
-
 }
 
 .video-title {
   width: 85%;
-  /* padding-top: 25px;
-  padding-bottom: 20px;  */
-  font-size: 18px;     
+  margin-top: 25px;
+  margin-bottom: 19px;
+  vertical-align: middle;
+  /* padding-top: 20px; */
+  /* padding-bottom: 8px;  */
+  font-size: 18px;
   font-weight: lighter;
   color: black;
   font-family: Roboto, Arial, sans-serif;
-  }
+}
 
-  .number-of-views {
-    text-align: left;
-    color: #606060;
-    font-weight: normal;
-    font-size: 14px;
-    font-family: Roboto, Arial, sans-serif;
-    padding-left: 8px;
-  }
-  
-  .views {
-    color: #AAAAAA;
-    text-decoration: none;
-    font-family: Roboto, Arial, sans-serif;
-    font-size: 13px;
-    padding-right: 15px;
-    margin-left: 10px;
-  }
-  .likes .dislikes {
-    margin-left: 8px;
-    margin-right: 8px;
-    font-size: 8px !important;
-  }
+.number-of-views {
+  text-align: left;
+  color: #606060;
+  font-weight: normal;
+  font-size: 14px;
+  font-family: Roboto, Arial, sans-serif;
+  padding-bottom: 24px;
+}
 
-  .suggested-videos {
-    width: 25%;
-    float: left;
-    margin-bottom: 3px;
-    padding-top: 70px;
-  }
-  
-  .icon {
-    color: #AAAAAA;
-    font-family: Roboto, Arial, sans-serif;
-  }
+.views {
+  color: #AAAAAA;
+  text-decoration: none;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 13px;
+  padding-right: 15px;
+  margin-left: 10px;
+}
+
+.like .dislike .share .add-to .settings {
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 8px !important;
+  color: #606060 !important;
+  text-decoration: none;
+}
+
+
+.view-icons i {
+  color: #909090;
+  padding-bottom: 24px;
+}
+
+.video-content {
+  border-bottom: 1px solid #AAA;
+  margin-top: 20px;
+  /* height: 50%; */
+  padding-bottom: 8px;
+}
+
+.about-publisher {
+  width: 100%;
+  height: 100px;
+  background: violet;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-publisher {
+  float: left;
+  width: 10%;
+  height: 60px;
+  background: black;
+  order: 1;
+}
+
+.name-date-publisher {
+  width: 50%;
+  height: 60px;
+  background: yellow;
+  order: 2;
+}
+
+.subscribe-button {
+  float: right;
+  width: 20%;
+  height: 60px;
+  background: red;
+  order: 3;
+}
 
 /* ============= COMMENTS STYLES =========== */
-  .comments {
-    width: 100%;
-    height: 400px;
-    background: crimson;
-    order: 4;
-  }
 
-  /* ============= SUGGESTED VIDEOS STYLES =========== */
-  .suggested-videos {
-    width: 15%;
-    height: 800px;
-    background: rosybrown;
-    display: flex;
-    justify-content: right;
-    order: 3;
-  }
-  
+.comments {
+  width: 100%;
+  height: 400px;
+  background: crimson;
+  order: 4;
+}
+
+/* ============= SUGGESTED VIDEOS STYLES =========== */
+
+.suggested-videos {
+  width: 15%;
+  height: 800px;
+  background: rosybrown;
+  display: flex;
+  justify-content: right;
+  order: 3;
+}

@@ -337,3 +337,45 @@ span a.message {
 .suggestion p {
   flex-grow: 1;
 }
+
+/* ============= COMMENT SECTION STYLES =========== */
+.all-comments {
+  width: 820px;
+  float: left;
+  margin-left: 20px;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: Roboto, Arial, sans-serif;
+  order: 4;
+}
+
+.add-comment {
+  padding-bottom: 30px;
+  padding-top: 5px;
+  margin-left: -30px;
+}
+
+.visitor-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  float: left;
+}
+
+.visitor {
+  border-radius: 50%;
+  float: left;
+}
+
+#input-comment {
+  width: 760px !important;
+  height: 40px !important;
+  float: right;
+}
+
+.listener-comment img {
+  padding-right: 5px;
+  margin-left: -30px;
+}

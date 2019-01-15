@@ -348,10 +348,78 @@ span a.message {
 /* ============= SUGGESTED VIDEOS STYLES =========== */
 
 .suggested-videos {
-  width: 15%;
-  height: 800px;
-  background: rosybrown;
-  display: flex;
-  justify-content: right;
+  width: 25%;
+  float: left;
+  margin-bottom: 3px;
+  padding-top: 10px;
   order: 3;
+  padding-top: 80px;
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 14px;
+  /* justify-content: right; 
+  padding: 70px 4px 4px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline; */
+}
+
+.autoplay-section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-bottom: 5px;
+}
+
+.next-video {
+  font-family: Roboto, Arial, sans-serif;
+  display: inline-block;
+  align-items: left;
+}
+
+.autoplay {
+  float: right;
+  color: #0360D4;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  margin-left: 60px;
+  align-items: right;
+  padding-bottom: 8px;
+}
+
+.suggestion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* border-bottom: solid 1px rgba(187,187,187,0.5);
+  padding-bottom: 8px; */
+}
+
+.suggestion img {
+  padding-right: 8px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  float: left;
+  width: 168px;
+  height: 95px;
+  object-fit: cover;
+}
+
+.song-name {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  font-family: Roboto, Arial, sans-serif;
+  vertical-align: top;
+  margin-top: -50px;
+}
+
+.author-views {
+  font-size: 13px;
+  color: grey;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.suggestion p {
+  flex-grow: 1;
 }

@@ -268,6 +268,50 @@ span a.message {
   margin-top: 33px;
 }
 
+.com-input {
+  width: 100%;
+  height: 100px;
+  margin-top: -10px;
+  margin-bottom: 32px;
+}
+
+.number-of-comments {
+  margin-bottom: 28px;
+}
+
+#num-com {
+  font-size: 16px;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: lighter;
+  margin-right: 25px;
+}
+
+#sort-icon {
+  color: #AAA;
+  vertical-align: bottom;
+  margin-right: 10px;
+}
+
+#sort-by {
+  font-size: 14px;
+  font-weight: medium;
+  font-family: Roboto, Arial, sans-serif;
+  color: #AAA;
+}
+
+#input-comment {
+  width: 890px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: lighter;
+  color: #111;
+  vertical-align: top;
+  border: 0;
+  outline: 0;
+  /* background: transparent; */
+  border-bottom: 1px solid rgba(187, 187, 187, 0.5);
+}
+
 .com {
   padding-bottom: 14px;
   display: inline;

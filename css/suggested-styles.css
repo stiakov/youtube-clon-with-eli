@@ -10,7 +10,8 @@
   padding-left: 0;
   margin-left: 70%;
   margin-right: 14px;
-  position: fixed;
+  position: absolute;
+  z-index: -1;
 }
 
 .autoplay-section {

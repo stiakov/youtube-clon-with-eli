@@ -7,9 +7,9 @@
 <li><a href="https://github.com/misselliev/">Elizabeth Villalejos</a></li>
 </ul>
 <h2 id="live-demo">Live demo</h2>
-<p>You can visit our project live <a href="https://raw.githack.com/stiakov/youtube-clon-with-eli/dev/index.html">here</a>.</p>
+<p>You can visit our project live <a href="https://raw.githack.com/stiakov/youtube-clon-with-eli/dev/index.html">here</a></p>
 <h2 id="useful-links">Useful links</h2>
-<p>Taken from <a href="https://www.theodinproject.com/courses/html5-and-css3/lessons/embedding-images-and-video">The  Odin  Project</a>.</p>
+<p>Taken from <a href="https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements">The  Odin  Project</a>.</p>
 <blockquote>
 <p>“Discipline is the bridge between goals and accomplishment” —Jim Rohn</p>
 </blockquote>

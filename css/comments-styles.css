@@ -1,0 +1,130 @@
+/* ============= COMMENTS STYLES =========== */
+
+.comments {
+  width: 100%;
+  height: 400px;
+  order: 4;
+  display: flex;
+  flex-direction: column;
+  margin-top: 33px;
+}
+
+.com-input {
+  width: 100%;
+  height: 100px;
+  margin-top: -10px;
+  margin-bottom: 32px;
+}
+
+.number-of-comments {
+  margin-bottom: 28px;
+}
+
+#num-com {
+  font-size: 16px;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: lighter;
+  margin-right: 25px;
+}
+
+#sort-icon {
+  color: #AAA;
+  vertical-align: bottom;
+  margin-right: 10px;
+}
+
+#sort-by {
+  font-size: 14px;
+  font-weight: medium;
+  font-family: Roboto, Arial, sans-serif;
+  color: #AAA;
+}
+
+#input-comment {
+  width: 890px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: lighter;
+  color: #111;
+  vertical-align: top;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid rgba(187, 187, 187, 0.5);
+}
+
+.com {
+  padding-bottom: 14px;
+  display: inline;
+}
+
+.comments img {
+  border-radius: 50%;
+  margin-right: 16px;
+  margin-bottom: 2px;
+}
+
+.com-pic {
+  float: left;
+  width: 48px;
+  height: 48px;
+  vertical-align: middle;
+  flex-grow: 1;
+  margin-right: 16px;
+  order: 1;
+}
+
+.com-date-name {
+  float: left;
+  text-align: left;
+  vertical-align: middle;
+  flex-grow: 1;
+  margin-right: 16px;
+  order: 2;
+}
+
+.com-date {
+  margin-bottom: 15px;
+  color: gray;
+  font-size: 13px;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.com-name {
+  margin-bottom: 15px;
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.com-comment {
+  width: auto;
+  margin-bottom: 18px;
+  color: black;
+  font-size: 14px;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.com-icons {
+  color: black !important;
+  font-size: 14px;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.com-view-response a {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Roboto, Arial, sans-serif;
+  padding: 14px 0px 14px 0px;
+}
+
+.com-view-response {
+  margin-top: 18px;
+  margin-bottom: 14px;
+}
+
+.likes .dislikes {
+  padding-left: 58px !important;
+  padding-right: 8px;
+}

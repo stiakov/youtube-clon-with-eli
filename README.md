@@ -7,7 +7,7 @@
 <li><a href="https://github.com/misselliev/">Elizabeth Villalejos</a></li>
 </ul>
 <h2 id="live-demo">Live demo</h2>
-<p>You can visit our project live <a href="https://raw.githack.com/stiakov/youtube-clon-with-eli/dev/index.html">here</a></p>
+<p>You can visit our project live <a href="https://rawcdn.githack.com/stiakov/youtube-clon-with-eli/c38b87f6db9a35092a6b2caf1eaea6da00e3915c/index.html">here</a></p>
 <h2 id="useful-links">Useful links</h2>
 <p>Taken from <a href="https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements">The  Odin  Project</a>.</p>
 <blockquote>
